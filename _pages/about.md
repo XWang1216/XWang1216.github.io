@@ -26,7 +26,7 @@ latest_posts:
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-> **Optimization is everywhere**
+> **Optimization is everywhere**:
 > learning guides optimization, and optimization improves learning
 
 I am a PhD candidate in Computer Science at Bielefeld University, Germany, where I began my doctoral studies in October 2022. I expect to complete my PhD in 2026.
