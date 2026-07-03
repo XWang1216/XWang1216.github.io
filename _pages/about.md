@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate in Computer Science at Bielefeld University
+subtitle: Optimization is everywhere — learning and evolution make it smarter.
 
 profile:
   align: right
@@ -26,10 +26,13 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+> **Optimization is everywhere — learning guides optimization, and optimization improves learning.**
+> 
+I am a PhD candidate in Computer Science at **Bielefeld University**, Germany, where I began my doctoral studies in October 2022. I expect to complete my PhD in 2026.
 
-I am a PhD candidate in Computer Science at Bielefeld University, Germany. I submitted my PhD thesis in March 2026 and expect to complete my PhD later this year.
+I received both my B.Sc. and M.Sc. degrees in Mathematics from the China University of Petroleum (East China) in 2020 and 2022, respectively. In 2020, I visited the University of Calgary, Canada, where I conducted my undergraduate thesis research. During my doctoral studies, I have also been a visiting researcher at Westlake University, China.
 
-My research focuses on the intersection of **evolutionary computation**, **machine learning**, and **combinatorial optimization**. In particular, my work covers the following directions:
+My research focuses on the intersection of **Graph Neural Combinatorial Optimization**, **Evolutionary Computation and Heuristics**, and **AI4Optimization**. In particular, my work covers the following directions:
 
 ### 1. Learning-based combinatorial optimization
 
@@ -39,12 +42,6 @@ I develop machine-learning methods for solving large-scale combinatorial optimiz
 
 I design evolutionary algorithms for challenging optimization scenarios, including **large-scale**, **sparse**, **expensive**, and **multimodal multi-objective optimization**. My research focuses on search-space reduction, solution representation, surrogate modeling, and diversity preservation.
 
-### 3. Machine learning for algorithm design
+### 3. AI for Optimization
 
-I am also interested in combining machine learning with automated algorithm design, including **LLM-assisted code generation**, **neural architecture search**, and learning-guided heuristic optimization.
-
-### 4. Applications
-
-My research has been applied to problems such as **graph coloring**, **vehicle routing**, **high-speed railway resource allocation**, and data-driven optimization.
-
-I am currently interested in postdoctoral opportunities related to evolutionary computation, graph machine learning, combinatorial optimization, and AI for scientific discovery.
+I investigate how **graph neural networks and evolutionary computation can mutually enhance each other**. Graph neural networks can exploit problem structure to guide evolutionary search and improve solution generation, while evolutionary algorithms can optimize neural architectures, model parameters, and learning strategies. This bidirectional interaction enables more effective approaches to complex combinatorial and multi-objective optimization problems.
