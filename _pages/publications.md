@@ -5,17 +5,9 @@ title: publications
 description: Publications grouped by research direction.
 nav: true
 nav_order: 2
-
-toc:
-  sidebar: left
-  collapse: expanded
 ---
 
 {% include bib_search.liquid %}
-
-## All Publications
-
-{% bibliography --group_by none %}
 
 ## Graph Neural Combinatorial Optimization
 
