@@ -44,4 +44,4 @@ I design evolutionary algorithms for challenging optimization scenarios, includi
 
 ### Synergistic Learning and Evolutionary Computation
 
-I investigate how **graph neural networks and evolutionary computation can mutually enhance each other**. Graph neural networks can exploit problem structure to guide evolutionary search and improve solution generation, while evolutionary algorithms can optimize neural architectures, model parameters, and learning strategies. This bidirectional interaction enables more effective approaches to complex combinatorial and multi-objective optimization problems.
+I investigate how **graph neural networks and evolutionary computation can mutually enhance each other**. Graph neural networks can exploit problem structure to guide evolutionary search and improve solution generation, while evolutionary algorithms can optimize neural architectures, model parameters, and learning strategies. This bidirectional interaction enables more effective approaches to complex combinatorial and continuous optimization problems.
