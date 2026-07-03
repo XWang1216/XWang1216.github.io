@@ -30,5 +30,3 @@ latest_posts:
 I am a PhD candidate in Computer Science at Bielefeld University, Germany. I submitted my PhD thesis in March 2026.
 
 My research lies at the intersection of evolutionary computation, graph neural networks, and combinatorial optimization. I am particularly interested in learning-based combinatorial optimization, large-scale multi-objective optimization, diffusion models, and automated algorithm design.
-
-I am currently exploring postdoctoral opportunities in evolutionary computation, machine learning, combinatorial optimization, and AI for scientific discovery.
