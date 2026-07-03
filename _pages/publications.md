@@ -13,18 +13,22 @@ toc:
 
 {% include bib_search.liquid %}
 
+## All Publications
+
+{% bibliography --group_by none %}
+
 ## Graph Neural Combinatorial Optimization
 
-{% bibliography --query @*[category=gnn] %}
+{% bibliography --query @*[category=gnn] --group_by none %}
 
 ## Evolutionary Computation and Heuristics
 
-{% bibliography --query @*[category=ec] %}
+{% bibliography --query @*[category=ec] --group_by none %}
 
 ## Synergistic Learning and Evolutionary Computation
 
-{% bibliography --query @*[category=synergy] %}
+{% bibliography --query @*[category=synergy] --group_by none %}
 
 ## Other Research
 
-{% bibliography --query @*[category=others] %}
+{% bibliography --query @*[category=others] --group_by none %}
