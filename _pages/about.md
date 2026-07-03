@@ -27,21 +27,21 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 > **Optimization is everywhere — learning guides optimization, and optimization improves learning.**
-> 
-I am a PhD candidate in Computer Science at **Bielefeld University**, Germany, where I began my doctoral studies in October 2022. I expect to complete my PhD in 2026.
+
+I am a PhD candidate in Computer Science at Bielefeld University, Germany, where I began my doctoral studies in October 2022. I expect to complete my PhD in 2026.
 
 I received both my B.Sc. and M.Sc. degrees in Mathematics from the China University of Petroleum (East China) in 2020 and 2022, respectively. In 2020, I visited the University of Calgary, Canada, where I conducted my undergraduate thesis research. During my doctoral studies, I have also been a visiting researcher at Westlake University, China.
 
-My research focuses on the intersection of **Graph Neural Combinatorial Optimization**, **Evolutionary Computation and Heuristics**, and **AI4Optimization**. In particular, my work covers the following directions:
+My research focuses on the intersection of **Graph Neural Combinatorial Optimization**, **Evolutionary Computation and Heuristics**, and **their Bidirectional Synergy**. In particular, my work covers the following directions:
 
-### 1. Learning-based combinatorial optimization
+### Graph Neural Combinatorial Optimization
 
 I develop machine-learning methods for solving large-scale combinatorial optimization problems, with a particular focus on **graph neural networks**, **diffusion models**, and **large language models**. My main applications include graph coloring, routing, scheduling, and resource allocation.
 
-### 2. Evolutionary multi-objective optimization
+### Evolutionary Computation and Heuristics
 
 I design evolutionary algorithms for challenging optimization scenarios, including **large-scale**, **sparse**, **expensive**, and **multimodal multi-objective optimization**. My research focuses on search-space reduction, solution representation, surrogate modeling, and diversity preservation.
 
-### 3. AI for Optimization
+### Synergistic Learning and Evolutionary Computation
 
 I investigate how **graph neural networks and evolutionary computation can mutually enhance each other**. Graph neural networks can exploit problem structure to guide evolutionary search and improve solution generation, while evolutionary algorithms can optimize neural architectures, model parameters, and learning strategies. This bidirectional interaction enables more effective approaches to complex combinatorial and multi-objective optimization problems.
