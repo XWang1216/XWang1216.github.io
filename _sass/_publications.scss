@@ -1,0 +1,51 @@
+/* Highlight my name in publication author lists */
+.bibliography .author em {
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Publication category and authorship badges */
+.pub-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.45rem;
+  margin-bottom: 0.45rem;
+}
+
+.pub-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 650;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.pub-tag-ec {
+  color: #7c2d12;
+  background-color: #ffedd5;
+}
+
+.pub-tag-gnn {
+  color: #1e3a8a;
+  background-color: #dbeafe;
+}
+
+.pub-tag-synergy {
+  color: #581c87;
+  background-color: #f3e8ff;
+}
+
+.pub-tag-other {
+  color: #374151;
+  background-color: #f3f4f6;
+}
+
+.pub-tag-first {
+  color: #14532d;
+  background-color: #dcfce7;
+}
