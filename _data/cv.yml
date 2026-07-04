@@ -21,29 +21,41 @@ cv:
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: Bielefeld University
+        location: Bielefeld, Germany
+        url: https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=378249708
+        area: Computer Science
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 2022
+        end_date: 2026
+        # score: ""
+        # courses: "Theory of Relativity"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Supported by the Bielefeld Young Researchers' Fund.
+          - Supported by the Alexander von Humboldt Professorship for Artificial Intelligence awarded to Prof. Yaochu Jin.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: China University of Petroleum (East China)
+        location: Qingdao, China
+        area: Mathematics (Optimization and Operation Research)
+        studyType: Master of Science
+        start_date: 2020
+        end_date: 2022
+        courses: "Optimization and Operation Research"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Graduated one year ahead of the standard study period.
+          - Received the Excellent Graduation Thesis Award from the university and Shandong Province.
+          - Supported by the UPC Graduate Innovation Project in 2021, No. YCX2021146, as project leader.
 
+      - institution: China University of Petroleum (East China)
+        location: Qingdao, China
+        area: Mathematics and Applied Mathematics
+        studyType: Bachleor of Science
+        start_date: 2016
+        end_date: 2020
+        courses: "Mathematical Analysis, Advanced Algebra"
+        highlights:
+          - Received the Excellent Graduation Thesis Award from the university.
+        
     Experience:
       - company: Institute for Advanced Study, Princeton University
         position: Professor of Theoretical Physics
