@@ -13,7 +13,7 @@ scholar_userid: https://scholar.google.com.hk/citations?user=bWW6MRsAAAAJ&hl=zh-
   # logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
   # title: Custom Social
   # url: https://www.alberteinstein.com/
-researchgate:
-  logo: https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/researchgate.svg
-  title: ResearchGate
-  url: https://www.researchgate.net/profile/Xiangyu-Wang-42
+# researchgate:
+  # logo: https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/researchgate.svg
+  # title: ResearchGate
+  # url: https://www.researchgate.net/profile/Xiangyu-Wang-42
