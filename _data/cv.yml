@@ -49,7 +49,7 @@ cv:
       - institution: China University of Petroleum (East China)
         location: Qingdao, China
         area: Mathematics and Applied Mathematics
-        studyType: Bachleor of Science
+        studyType: Bachelor of Science
         start_date: 2016
         end_date: 2020
         # courses: "Mathematical Analysis, Advanced Algebra"
@@ -65,7 +65,7 @@ cv:
         start_date: 2020
         end_date: 2020
         highlights:
-           - Bachelor's thesis: Statistical Methods Based on Metabolites.
+           - Bachelor's thesis - Statistical Methods Based on Metabolites.
         
     # Experience:
       # - company: Institute for Advanced Study, Princeton University
