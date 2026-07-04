@@ -33,7 +33,7 @@ I am a PhD candidate in Computer Science at Bielefeld University, Germany, where
 
 I received both my B.Sc. and M.Sc. degrees in Mathematics from the China University of Petroleum (East China) in 2020 and 2022, respectively. In 2020, I visited the University of Calgary, Canada, where I conducted my undergraduate thesis research. During my doctoral studies, I have also been a visiting researcher at Westlake University, China.
 
-My research focuses on [**graph learning for combinatorial optimization**](/publications/?filter=GNO), [**evolutionary computation and heuristics**](/publications/?filter=EC), and their [**synergistic integration**](/publications/?filter=Synergy). I develop learning- and evolution-based methods for complex combinatorial, continuous, and multi-objective optimization problems.
+My research focuses on **graph learning for combinatorial optimization**, **evolutionary computation and heuristics**, and their **synergistic integration**. I develop learning- and evolution-based methods for complex combinatorial, continuous, and multi-objective optimization problems.
 
 <!--
 ### Graph Neural Combinatorial Optimization
