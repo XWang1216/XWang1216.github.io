@@ -45,6 +45,16 @@ cv:
           - Graduated one year ahead of the standard study period.
           - Received the Excellent Graduation Thesis Award from the university and Shandong Province.
           - Supported by the UPC Graduate Innovation Project in 2021, No. YCX2021146, as project leader.
+          
+      - institution: University of Calgary
+        location: Calgary, Canada
+        # url: https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=378249708
+        area: Mathematics and Statistics
+        studyType: Visiting Undergraduate Student
+        start_date: 2020
+        end_date: 2020
+        highlights:
+           - Bachelor's thesis - Statistical Methods Based on Metabolites.
 
       - institution: China University of Petroleum (East China)
         location: Qingdao, China
@@ -56,16 +66,8 @@ cv:
         highlights:
           - Received the Excellent Graduation Thesis Award from the university.
 
-    Visiting Education:
-      - institution: University of Calgary
-        location: Calgary, Canada
-        # url: https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=378249708
-        area: Mathematics and Statistics
-        studyType: Visiting Undergraduate Student
-        start_date: 2020
-        end_date: 2020
-        highlights:
-           - Bachelor's thesis - Statistical Methods Based on Metabolites.
+    
+      
         
     # Experience:
       # - company: Institute for Advanced Study, Princeton University
