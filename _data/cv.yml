@@ -107,15 +107,15 @@ cv:
     Skills:
       - name: Machine Learning
         icon: fa-solid fa-tag
-        keywords: "Graph Neural Networks, Diffusion Models, Generative Models, Large Language Models, Neural Network Convergence Theory"
+        keywords: "<br>Graph Neural Networks, Diffusion Models, Generative Models, Large Language Models, Neural Network Convergence Theory"
 
       - name: Evolutionary Computation and Heuristics
         icon: fa-solid fa-tag
-        keywords: "Surrogate Assisted Models, Data-Driven Optimization, Genetic Algorithms, Swarm-based Methods"
+        keywords: "<br>Surrogate Assisted Models, Data-Driven Optimization, Genetic Algorithms, Swarm-based Methods"
 
       - name: Optimization
         icon: fa-solid fa-tag
-        keywords: "Continuous/Combinatorial Optimization, Multi-objective, Large-scale, Sparse/Expensive/Multimodal Optimization"
+        keywords: "<br>Continuous/Combinatorial Optimization, Multi-objective, Large-scale, Sparse/Expensive/Multimodal Optimization"
 
     Languages:
       - name: Chinese
