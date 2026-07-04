@@ -11,7 +11,7 @@ nav_order: 2
 **EC** = Evolutionary Computation;<br>
 **GNO** = Graph Neural Optimization;<br>
 **Synergy** = Graph Learning × Evolutionary Computation;<br>
-**Cont.** = Continuous Optimization; <br>
+**Cont.** = Continuous Optimization;<br>
 **Comb.** = Combinatorial Optimization;<br>
 **★** = First-author publication.
 
