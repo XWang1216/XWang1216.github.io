@@ -55,6 +55,17 @@ cv:
         # courses: "Mathematical Analysis, Advanced Algebra"
         highlights:
           - Received the Excellent Graduation Thesis Award from the university.
+
+    Visiting Education:
+      - institution: University of Calgary
+        location: Calgary, Canada
+        # url: https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=378249708
+        area: Mathematics and Statistics
+        studyType: Visiting Undergraduate Student
+        start_date: 2020
+        end_date: 2020
+        highlights:
+           - Bachelor's thesis: Statistical Methods Based on Metabolites.
         
     # Experience:
       # - company: Institute for Advanced Study, Princeton University
