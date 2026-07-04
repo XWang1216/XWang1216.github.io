@@ -69,43 +69,38 @@ cv:
 
     
 
-    Service:
-      - title: Workshop Organizer
-        institution: IEEE World Congress on Computational Intelligence, WCCI 2026
+    Volunteer (Acdemic Service):
+      - position: Workshop Organizer
+        company: IEEE World Congress on Computational Intelligence, WCCI 2026
         location: Netherlands
         url: "https://attend.ieee.org/wcci-2026/workshops/#1765394610720-be92316e-fb94"
         start_date: 2026-06
         end_date: 2026-06
-        highlights:
-        - "Organized the workshop titled Generative and Adaptive Surrogate Models for Evolutionary Algorithms."
+        summary: "Workshop: Generative and Adaptive Surrogate Models for Evolutionary Algorithms."
 
-      - title: Workshop Organizer
-        institution: IEEE World Congress on Computational Intelligence, WCCI 2024
+      - company: IEEE World Congress on Computational Intelligence, WCCI 2024
+        position: Workshop Organizer
         location: Yokohama, Japan
         url: "https://2024.ieeewcci.org/workshops"
         start_date: 2024-06
         end_date: 2024-07
-        highlights:
-        - "Organized the workshop titled Privacy-Preserving and Fairness-Aware Optimization."
+        summary: "Workshop: Privacy-Preserving and Fairness-Aware Optimization."
 
-      - title: Special Session Organizer
-        institution: IEEE World Congress on Computational Intelligence, WCCI 2024
+      - company: IEEE World Congress on Computational Intelligence, WCCI 2024
+        position: Special Session Organizer
         location: Yokohama, Japan
         url: "https://xwang1216.github.io/WCCI2024/"
         start_date: 2024-06
         end_date: 2024-07
-        highlights:
-        - "Organized the special session titled Machine Learning Assisted Heuristics for Combinatorial Optimization."
-        - Served as a session chair.
+        summary: "Special session: Machine Learning Assisted Heuristics for Combinatorial Optimization. Served as a session chair."
 
-      - title: Workshop Organizer
-        institution: Australasian Joint Conference on Artificial Intelligence, AJCAI 2023
+      - company: Australasian Joint Conference on Artificial Intelligence, AJCAI 2023
+        position: Workshop Organizer
         location: Australia
         url: "https://shiqing-liu.github.io/AJCAI2023-workshop/"
         start_date: 2023-11
         end_date: 2023-11
-        highlights:
-        - "Organized the workshop titled Machine Learning for Data-driven Optimization."
+        summary: "Workshop: Machine Learning for Data-driven Optimization."
       
         
     # Experience:
