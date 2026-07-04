@@ -8,14 +8,15 @@ nav_order: 2
 ---
 
 **Legend:**<br>
-**EC** = Evolutionary Computation;  
-**GNO** = Graph Neural Optimization;  
-**Synergy** = Graph Learning × Evolutionary Computation;  
-**Cont.** = Continuous Optimization;  
-**Comb.** = Combinatorial Optimization;  
+**EC** = Evolutionary Computation;<br>
+**GNO** = Graph Neural Optimization;<br>
+**Synergy** = Graph Learning × Evolutionary Computation;<br>
+**Cont.** = Continuous Optimization; **Comb.** = Combinatorial Optimization;<br>
 **★** = First-author publication.
 
 {% include bib_search.liquid %}
+
+{% bibliography %}
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
@@ -24,30 +25,39 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (!filter) return;
 
-  function applyFilter() {
+  const query = filter.toLowerCase();
+
+  function applyCustomFilter() {
     const input =
-      document.querySelector("#bibsearch") ||
-      document.querySelector("input[type='search']") ||
       document.querySelector("input[placeholder='Type to filter']") ||
-      document.querySelector(".bibsearch input");
+      document.querySelector("input[type='search']") ||
+      document.querySelector("#bibsearch");
 
-    if (!input) return false;
+    if (input) {
+      input.value = filter;
+    }
 
-    input.value = filter;
+    const entries = document.querySelectorAll(".bibliography li");
 
-    input.dispatchEvent(new Event("input", { bubbles: true }));
-    input.dispatchEvent(new Event("change", { bubbles: true }));
-    input.dispatchEvent(new KeyboardEvent("keyup", { bubbles: true, key: filter.slice(-1) || "a" }));
+    if (!entries.length) return false;
+
+    entries.forEach(function (entry) {
+      const text = entry.textContent.toLowerCase();
+
+      if (text.includes(query)) {
+        entry.style.display = "";
+      } else {
+        entry.style.display = "none";
+      }
+    });
 
     return true;
   }
 
-  if (!applyFilter()) {
-    setTimeout(applyFilter, 300);
-    setTimeout(applyFilter, 800);
-    setTimeout(applyFilter, 1500);
+  if (!applyCustomFilter()) {
+    setTimeout(applyCustomFilter, 300);
+    setTimeout(applyCustomFilter, 800);
+    setTimeout(applyCustomFilter, 1500);
   }
 });
 </script>
-
-{% bibliography %}
