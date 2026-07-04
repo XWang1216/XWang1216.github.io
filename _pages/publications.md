@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /
 title: publications
 description: My publications.
 nav: true
