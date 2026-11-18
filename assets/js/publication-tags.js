@@ -30,13 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
       tags.appendChild(tag);
     }
 
-    // Journal or conference
-    parts.forEach(part => {
-      if (!labels[part] && part !== "Other") {
-        addTag(part, "venue");
-      }
-    });
-
+    
     // Research topics
     parts.forEach(part => {
       if (labels[part]) {
@@ -44,9 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
-    if (firstAuthor) {
-      addTag("First Author", "first");
-    }
+  
 
     const item = column.closest("li");
     if (!item) return;
