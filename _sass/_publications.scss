@@ -199,3 +199,20 @@ html[data-theme="dark"] .bibliography > li * {
 html[data-theme="dark"] .pub-tags .pub-tag {
   background-color: #333333 !important;
 }
+
+
+/* Inline research labels */
+.bibliography .title .pub-tags {
+  display: inline;
+  margin-left: 0.4rem;
+}
+
+.bibliography .title .pub-tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 400;
+  margin-right: 0.3rem;
+  padding: 0.1rem 0.4rem;
+  vertical-align: middle;
+  white-space: nowrap;
+}
