@@ -7,6 +7,12 @@ nav: true
 nav_order: 4
 ---
 
+<div class="academic-service" markdown="1">
+
+## Workshop Organization
+
+- [Workshop title](REPLACE_WITH_WORKSHOP_URL), 2026
+
 ## Journal Reviewing
 
 - IEEE Transactions on Evolutionary Computation
@@ -20,6 +26,4 @@ nav_order: 4
 - IEEE World Congress on Computational Intelligence (WCCI 2024)
 - IEEE Congress on Evolutionary Computation (CEC 2025)
 
-## Workshop Organization
-
-<!-- Add your workshops here. -->
+</div>
