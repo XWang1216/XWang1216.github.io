@@ -145,3 +145,46 @@ h2.bibliography {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
+
+/* Year headings */
+h2.bibliography {
+  color: #000000 !important;
+  font-size: 1.5rem !important;
+  font-weight: 600;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Indent publications relative to the year */
+.bibliography > li > div {
+  margin-left: 1.25rem !important;
+  margin-right: 0 !important;
+}
+
+/* Publication text color */
+.bibliography > li,
+.bibliography > li * {
+  color: #444444 !important;
+}
+
+/* Research topic tags */
+.pub-tags .pub-tag {
+  background-color: #f1f1f1 !important;
+  color: #555555 !important;
+  border-radius: 5px;
+  font-size: 0.75rem;
+}
+
+/* Dark mode */
+html[data-theme="dark"] h2.bibliography {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .bibliography > li,
+html[data-theme="dark"] .bibliography > li * {
+  color: #cccccc !important;
+}
+
+html[data-theme="dark"] .pub-tags .pub-tag {
+  background-color: #333333 !important;
+}
