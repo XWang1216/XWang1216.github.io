@@ -57,3 +57,19 @@ document.addEventListener("DOMContentLoaded", () => {
     column.classList.add("pub-abbr-hidden");
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".bibliography .links").forEach(links => {
+    const doi = Array.from(links.querySelectorAll("a")).find(link =>
+      link.textContent.trim().toLowerCase() === "doi" ||
+      /doi\.org\//i.test(link.href)
+    );
+
+    if (!doi) return;
+
+    doi.textContent = "[paper]";
+    doi.className = "pub-paper-link";
+
+    links.replaceChildren(doi);
+  });
+});
