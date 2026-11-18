@@ -43,16 +43,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const item = column.closest("li");
     if (!item) return;
 
-    const links = item.querySelector(".links");
-    const periodical = item.querySelector(".periodical");
+    const title = item.querySelector(".title");
 
-    if (links) {
-      links.before(tags);
-    } else if (periodical) {
-      periodical.after(tags);
-    } else {
-      item.appendChild(tags);
-    }
+if (title) {
+  title.appendChild(document.createTextNode(" "));
+  title.appendChild(tags);
+}
 
     column.classList.add("pub-abbr-hidden");
   });
