@@ -216,3 +216,20 @@ html[data-theme="dark"] .pub-tags .pub-tag {
   vertical-align: middle;
   white-space: nowrap;
 }
+
+/* Academic service page */
+.academic-service h2 {
+  font-size: 1.25rem !important;
+  font-weight: 600;
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+}
+
+.academic-service li {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.academic-service a {
+  color: #2563eb !important;
+}
