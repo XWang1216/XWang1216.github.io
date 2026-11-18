@@ -10,3 +10,5 @@ nav_order: 2
 {% include bib_search.liquid %}
 
 {% bibliography %}
+
+<script src="{{ '/assets/js/publication-tags.js' | relative_url }}" defer></script>
