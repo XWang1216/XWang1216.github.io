@@ -185,6 +185,17 @@ html[data-theme="dark"] .bibliography > li * {
   color: #cccccc !important;
 }
 
+
+.bibliography .pub-paper-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.bibliography .pub-paper-link:hover {
+  text-decoration: underline;
+}
+
 html[data-theme="dark"] .pub-tags .pub-tag {
   background-color: #333333 !important;
 }
