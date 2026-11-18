@@ -1,50 +1,4 @@
-/* Highlight my name in publication author lists */
-.bibliography .author em {
-  font-style: normal;
-  font-weight: 700;
-}
-
-/* Publication category and authorship badges */
-.pub-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-top: 0.45rem;
-  margin-bottom: 0.45rem;
-}
-
-.pub-tag {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.15rem 0.5rem;
-  border-radius: 999px;
-  font-size: 0.72rem;
-  font-weight: 650;
-  line-height: 1.4;
-  letter-spacing: 0.02em;
-  white-space: nowrap;
-}
-
-.pub-tag-ec {
-  color: #7c2d12;
-  background-color: #ffedd5;
-}
-
-.pub-tag-gnn {
-  color: #1e3a8a;
-  background-color: #dbeafe;
-}
-
-.pub-tag-synergy {
-  color: #581c87;
-  background-color: #f3e8ff;
-}
-
-.pub-tag-other {
-  color: #374151;
-  background-color: #f3f4f6;
-}
-
+/* Global typography */
 body, p, li, h1, h2, h3, h4, h5, h6 {
   font-family: "Inter", "Segoe UI", Helvetica, Arial, sans-serif !important;
 }
@@ -58,7 +12,94 @@ h1, h2, h3 {
   font-weight: 600;
 }
 
-.pub-tag-first {
-  color: #14532d;
-  background-color: #dcfce7;
+/* Publication list */
+.bibliography {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+.bibliography > li {
+  list-style: none !important;
+  margin: 0 0 1.5rem;
+  padding: 0 0 1.5rem;
+  border-bottom: 1px solid var(--global-divider-color, #dddddd);
+}
+
+/* Full-width publication layout */
+.bibliography > li > div {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  gap: 0.5rem;
+}
+
+.bibliography > li > div > div:not(.abbr) {
+  order: 1;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0;
+}
+
+/* Move abbreviations below publication details */
+.bibliography .abbr {
+  order: 2;
+  width: auto !important;
+  max-width: 100% !important;
+  padding: 0;
+  text-align: left;
+}
+
+/* Publication title */
+.bibliography .title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 0.3rem;
+}
+
+.bibliography .title a {
+  font-weight: 600;
+}
+
+/* Authors */
+.bibliography .author {
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+}
+
+.bibliography .author em {
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Journal and conference information */
+.bibliography .periodical {
+  font-size: 0.95rem;
+  font-style: italic;
+  margin-bottom: 0.4rem;
+}
+
+/* Publication badges */
+.bibliography .abbr abbr,
+.bibliography .abbr .badge {
+  display: inline-flex !important;
+  width: auto !important;
+  padding: 0.25rem 0.65rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: #e8f0fe;
+  color: #2855a0;
+  text-decoration: none;
+}
+
+/* Publication links */
+.bibliography .links {
+  margin-top: 0.4rem;
+}
+
+.bibliography .links a.btn {
+  font-size: 0.8rem;
+  border-radius: 4px;
+  padding: 0.2rem 0.55rem;
 }
