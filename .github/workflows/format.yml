@@ -1,0 +1,61 @@
+
+name: Auto Format Website
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  format:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install Prettier
+        run: npm install -g prettier@3
+
+      - name: Format website files
+        run: |
+          prettier --write \
+            _config.yml \
+            _data/cv.yml \
+            _data/socials.yml \
+            _pages/about.md \
+            _pages/publications.md \
+            _pages/service.md \
+            _sass/_publications.scss \
+            assets/js/publication-tags.js
+
+      - name: Verify formatting
+        run: prettier --check .
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            _config.yml \
+            _data/cv.yml \
+            _data/socials.yml \
+            _pages/about.md \
+            _pages/publications.md \
+            _pages/service.md \
+            _sass/_publications.scss \
+            assets/js/publication-tags.js
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Apply Prettier formatting"
+            git push origin HEAD:main
+          fi
