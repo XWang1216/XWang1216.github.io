@@ -63,25 +63,25 @@ nav_order: 4
 /* Bold text, including organizer roles */
 .academic-service strong,
 .academic-service b {
-  color: #444444 !important;
-  font-weight: 600;
+color: #444444 !important;
+font-weight: 600;
 }
 
 /* Regular text */
 .academic-service li {
-  color: #444444 !important;
+color: #444444 !important;
 }
 
 /* Purple hyperlinks */
 .academic-service a,
 .academic-service a:visited {
-  color: #b12ca9 !important;
-  text-decoration: none;
+color: #b12ca9 !important;
+text-decoration: none;
 }
 
 .academic-service a:hover {
-  color: #92278f !important;
-  text-decoration: underline;
+color: #92278f !important;
+text-decoration: underline;
 }
 
 /* Dark mode */
@@ -89,6 +89,6 @@ html[data-theme="dark"] .academic-service h2,
 html[data-theme="dark"] .academic-service strong,
 html[data-theme="dark"] .academic-service b,
 html[data-theme="dark"] .academic-service li {
-  color: #cccccc !important;
+color: #cccccc !important;
 }
 </style>

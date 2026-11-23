@@ -18,7 +18,6 @@ cv:
     countryCode: SE
 
   sections:
-      
     Education:
       - institution: Bielefeld University
         location: Bielefeld, Germany
@@ -71,5 +70,3 @@ cv:
       - name: Optimization
         icon: fa-solid fa-tag
         keywords: "<br>Continuous and Combinatorial Optimization, Multi-objective, Large-scale, Sparse, Expensive, and Multimodal Optimization"
-
-    

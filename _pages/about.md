@@ -25,6 +25,7 @@ latest_posts:
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 > **Optimization is everywhere**
 
 I am currently a postdoctoral researcher in the Department of Computer Science and Engineering at Chalmers University of Technology, Sweden.
@@ -37,7 +38,6 @@ My research lies at the intersection of machine learning and optimization, with 
 - **Graph learning for combinatorial optimization**
 - **Evolutionary computation and metaheuristics**
 - **Expensive/Sparse/MultiModal Large-scale Multi-Objective Optimization**
-
 
 <!--
 ### Graph Neural Combinatorial Optimization

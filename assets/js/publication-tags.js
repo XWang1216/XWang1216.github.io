@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
   const labels = {
-    "EC": "Evolutionary Computation",
-    "GNO": "Graph Neural Optimization",
-    "Synergy": "Learning & Evolutionary Optimization",
+    EC: "Evolutionary Computation",
+    GNO: "Graph Neural Optimization",
+    Synergy: "Learning & Evolutionary Optimization",
     "Cont.": "Continuous Optimization",
-    "Comb.": "Combinatorial Optimization"
+    "Comb.": "Combinatorial Optimization",
   };
 
-  document.querySelectorAll(".bibliography .abbr").forEach(column => {
+  document.querySelectorAll(".bibliography .abbr").forEach((column) => {
     const source = column.querySelector("abbr, .badge") || column;
     const raw = source.textContent.trim();
     const firstAuthor = raw.includes("★");
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const parts = raw
       .replace(/★/g, "")
       .split(",")
-      .map(s => s.trim())
+      .map((s) => s.trim())
       .filter(Boolean);
 
     if (!parts.length) return;
@@ -30,35 +30,31 @@ document.addEventListener("DOMContentLoaded", () => {
       tags.appendChild(tag);
     }
 
-    
     // Research topics
-    parts.forEach(part => {
+    parts.forEach((part) => {
       if (labels[part]) {
         addTag(labels[part], "topic");
       }
     });
-
-  
 
     const item = column.closest("li");
     if (!item) return;
 
     const title = item.querySelector(".title");
 
-if (title) {
-  title.appendChild(document.createTextNode(" "));
-  title.appendChild(tags);
-}
+    if (title) {
+      title.appendChild(document.createTextNode(" "));
+      title.appendChild(tags);
+    }
 
     column.classList.add("pub-abbr-hidden");
   });
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll(".bibliography .links").forEach(links => {
-    const doi = Array.from(links.querySelectorAll("a")).find(link =>
-      link.textContent.trim().toLowerCase() === "doi" ||
-      /doi\.org\//i.test(link.href)
+  document.querySelectorAll(".bibliography .links").forEach((links) => {
+    const doi = Array.from(links.querySelectorAll("a")).find(
+      (link) => link.textContent.trim().toLowerCase() === "doi" || /doi\.org\//i.test(link.href)
     );
 
     if (!doi) return;
