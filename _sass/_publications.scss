@@ -242,10 +242,6 @@ html[data-theme="dark"] .pub-tags .pub-tag {
   color: #2563eb !important;
 }
 
-.bibliography > li .pub-paper-link {
-  color: #2563eb !important;
-}
-
 .bibliography .badges {
   display: none !important;
 }
@@ -344,19 +340,19 @@ html[data-theme="dark"] .cv .table-cv .badge {
   color: #b12ca9 !important;
 }
 
-/* Paper and code links */
-.bibliography .links a,
-.bibliography .pub-paper-link,
-.bibliography .pub-code-link {
+/* Paper and code links: higher specificity than previous theme rules */
+.bibliography > li .links a,
+.bibliography > li a.pub-paper-link,
+.bibliography > li a.pub-code-link {
   color: #39735b !important;
   font-weight: 500;
   text-decoration: none;
 }
 
 /* Hover effect */
-.bibliography .links a:hover,
-.bibliography .pub-paper-link:hover,
-.bibliography .pub-code-link:hover {
+.bibliography > li .links a:hover,
+.bibliography > li a.pub-paper-link:hover,
+.bibliography > li a.pub-code-link:hover {
   color: #285440 !important;
   text-decoration: underline;
 }
