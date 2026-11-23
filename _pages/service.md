@@ -1,3 +1,4 @@
+
 ---
 layout: page
 permalink: /service/
@@ -9,21 +10,41 @@ nav_order: 4
 
 <div class="academic-service" markdown="1">
 
-## Workshop Organization
+## Workshop & Special Session Organization
 
-- [Workshop title](REPLACE_WITH_WORKSHOP_URL), 2026
+- **WCCI 2026 — Workshop Organizer**  
+  [Generative and Adaptive Surrogate Models for Evolutionary Algorithms](https://attend.ieee.org/wcci-2026/workshops/#1765394610720-be92316e-fb94)  
+  IEEE World Congress on Computational Intelligence, Netherlands, 2026.
+
+- **WCCI 2024 — Workshop Organizer**  
+  [Privacy-Preserving and Fairness-Aware Optimization](https://2024.ieeewcci.org/workshops)  
+  IEEE World Congress on Computational Intelligence, Japan, 2024.
+
+- **WCCI 2024 — Special Session Organizer & Session Chair**  
+  [Machine Learning Assisted Heuristics for Combinatorial Optimization](https://xwang1216.github.io/WCCI2024/)  
+  IEEE World Congress on Computational Intelligence, Japan, 2024.
+
+- **AJCAI 2023 — Workshop Organizer**  
+  [Machine Learning for Data-driven Optimization](https://shiqing-liu.github.io/AJCAI2023-workshop/)  
+  Australasian Joint Conference on Artificial Intelligence, 2023.
 
 ## Journal Reviewing
 
 - IEEE Transactions on Evolutionary Computation
 - IEEE Transactions on Cybernetics
 - IEEE Transactions on Artificial Intelligence
+- IEEE Transactions on Emerging Topics in Computational Intelligence
+- Applied Soft Computing
+- Engineering Applications of Artificial Intelligence
 - Complex & Intelligent Systems
+- Neural Networks
+- Neurocomputing
+- Swarm and Evolutionary Computation
 
 ## Conference Reviewing
 
 - AAAI Conference on Artificial Intelligence (AAAI 2024)
 - IEEE World Congress on Computational Intelligence (WCCI 2024)
-- IEEE Congress on Evolutionary Computation (CEC 2025)
+- IEEE Congress on Evolutionary Computation (CEC 2024, 2025)
 
 </div>
