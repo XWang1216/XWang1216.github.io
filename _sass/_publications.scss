@@ -241,3 +241,94 @@ html[data-theme="dark"] .pub-tags .pub-tag {
 .bibliography .badges {
   display: none !important;
 }
+
+
+/* ====================================
+   CV Page - Minimal Grey Style
+   ==================================== */
+
+/* Section headings */
+.cv .card-title {
+  color: #444444 !important;
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+/* All bold text */
+.cv strong,
+.cv b,
+.cv .font-weight-bold,
+.cv h4,
+.cv h5,
+.cv h6.title {
+  color: #444444 !important;
+  font-weight: 600 !important;
+}
+
+/* Regular text */
+.cv .card p,
+.cv .card td,
+.cv .card li {
+  color: #555555;
+}
+
+/* Dates - remove purple badges */
+.cv .table-cv .badge {
+  background: transparent !important;
+  background-color: transparent !important;
+  color: #555555 !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  font-weight: 500 !important;
+  font-size: 0.85rem !important;
+  min-width: 0 !important;
+}
+
+/* Remove purple location and institution icons */
+.cv i.iconlocation,
+.cv i.iconinstitution,
+.cv i.icondepartment {
+  display: none !important;
+}
+
+/* Remove unwanted bullets beside CV entries */
+.cv li.list-group-item {
+  list-style: none !important;
+}
+
+.cv li.list-group-item::marker {
+  content: "";
+}
+
+/* Clean up date table borders */
+.cv .table-cv,
+.cv .table-cv td {
+  border: none !important;
+  background: transparent !important;
+}
+
+/* Keep real hyperlinks purple */
+.cv a:not(.anchor) {
+  color: #b12ca9;
+}
+
+.cv a:not(.anchor):hover {
+  color: #92278f;
+  text-decoration: underline;
+}
+
+/* Dark mode */
+html[data-theme="dark"] .cv .card-title,
+html[data-theme="dark"] .cv strong,
+html[data-theme="dark"] .cv b,
+html[data-theme="dark"] .cv h6.title {
+  color: #cccccc !important;
+}
+
+html[data-theme="dark"] .cv .table-cv .badge {
+  color: #bbbbbb !important;
+}
