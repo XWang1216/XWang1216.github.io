@@ -2,10 +2,9 @@
 layout: cv
 permalink: /cv/
 title: CV
+description: ""
 nav: true
 nav_order: 5
-cv_pdf: /assets/pdf/XiangyuWang_CV.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: ''
-  sidebar: left
+cv_format: rendercv
+sidebar: left
 ---
