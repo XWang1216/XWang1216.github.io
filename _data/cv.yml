@@ -2,7 +2,7 @@ cv:
   name: Xiangyu Wang
   label: Postdoctoral Researcher
   email: xiangyu.wang@chalmers.se
-  location: Gothenburg, Sweden
+  location: Gothenburg Sweden
   image: ""
   summary: >-
     I am a postdoctoral researcher in the Department of Computer Science and
@@ -33,7 +33,7 @@ cv:
         highlights:
           - "Dissertation: Graph Neural Optimization for Graph Coloring."
           - Supported by the Bielefeld Young Researchers Fund.
-          - Supported by the Alexander von Humboldt Professorship for Artificial Intelligence awarded to Prof. Yaochu Jin.
+          - "Supported by the Alexander von Humboldt Professorship for Artificial Intelligence awarded to [Prof. Yaochu Jin](https://scholar.google.co.uk/citations?hl=en&user=B5WAkz4AAAAJ)."
 
       - institution: China University of Petroleum (East China)
         location: Qingdao, China
@@ -75,8 +75,4 @@ cv:
         icon: fa-solid fa-tag
         keywords: "<br>Continuous and Combinatorial Optimization, Multi-objective, Large-scale, Sparse, Expensive, and Multimodal Optimization"
 
-    Languages:
-      - name: Chinese
-        summary: "Native speaker"
-      - name: English
-        summary: "Fluent"
+    
