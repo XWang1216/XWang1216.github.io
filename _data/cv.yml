@@ -1,10 +1,16 @@
 cv:
   name: Xiangyu Wang
-  label: PhD student
-  email: xiangyu.wang@uni-bielefeld.de
-  location: Bielefeld, Germany
+  label: Postdoctoral Researcher
+  email: xiangyu.wang@chalmers.se
+  location: Gothenburg, Sweden
   image: ""
-  summary: My research focuses on continuous and combinatorial optimization, combining mathematical optimization, heuristic search, machine learning, and their synergistic integration to solve complex large-scale and multi-objective optimization problems.
+  summary: >-
+    I am a postdoctoral researcher in the Department of Computer Science and
+    Engineering at Chalmers University of Technology, Sweden. My research lies
+    at the intersection of machine learning and optimization, focusing on
+    LLM agents for research automation, graph learning for combinatorial
+    optimization, evolutionary computation and metaheuristics, and large-scale
+    multi-objective optimization.
 
   social_networks:
     - network: GitHub
@@ -13,48 +19,41 @@ cv:
       username: xiangyu-wang-702a0739a
 
   address:
-    street: Inspiration 1
-    city: Bielefeld
-    region: North Rhine-Westphalia
-    postalCode: 33619
-    countryCode: DE
+    city: Gothenburg
+    countryCode: SE
 
   sections:
     Education:
       - institution: Bielefeld University
         location: Bielefeld, Germany
-        url: https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=378249708
         area: Computer Science
         studyType: PhD
         start_date: 2022
         end_date: 2026
-        # score: ""
-        # courses: "Theory of Relativity"
         highlights:
+          - "Dissertation: Graph Neural Optimization for Graph Coloring."
           - Supported by the Bielefeld Young Researchers Fund.
           - Supported by the Alexander von Humboldt Professorship for Artificial Intelligence awarded to Prof. Yaochu Jin.
 
       - institution: China University of Petroleum (East China)
         location: Qingdao, China
-        area: Mathematics (Optimization and Operation Research)
+        area: Mathematics (Optimization and Operations Research)
         studyType: Master of Science
         start_date: 2020
         end_date: 2022
-        # courses: "Optimization and Operation Research"
         highlights:
           - Graduated one year ahead of the standard study period.
           - Received the Excellent Graduation Thesis Award from the university and Shandong Province.
           - Supported by the UPC Graduate Innovation Project in 2021, No. YCX2021146, as project leader.
-          
+
       - institution: University of Calgary
         location: Calgary, Canada
-        # url: https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=378249708
         area: Mathematics and Statistics
         studyType: Visiting Undergraduate Student
         start_date: 2020
         end_date: 2020
         highlights:
-           - Bachelor's thesis - Statistical Methods Based on Metabolites.
+          - Conducted undergraduate thesis research on statistical methods based on metabolites.
 
       - institution: China University of Petroleum (East China)
         location: Qingdao, China
@@ -62,134 +61,22 @@ cv:
         studyType: Bachelor of Science
         start_date: 2016
         end_date: 2020
-        # courses: "Mathematical Analysis, Advanced Algebra"
         highlights:
           - Received the Excellent Graduation Thesis Award from the university.
 
-
-    
-
-    Volunteer:
-      - position: Workshop Organizer
-        company: IEEE World Congress on Computational Intelligence, WCCI 2026
-        location: Netherlands
-        url: "https://attend.ieee.org/wcci-2026/workshops/#1765394610720-be92316e-fb94"
-        start_date: 2026-06
-        end_date: 2026-06
-        summary: "Workshop: Generative and Adaptive Surrogate Models for Evolutionary Algorithms."
-
-      - company: IEEE World Congress on Computational Intelligence, WCCI 2024
-        position: Workshop Organizer
-        location: Yokohama, Japan
-        url: "https://2024.ieeewcci.org/workshops"
-        start_date: 2024-06
-        end_date: 2024-07
-        summary: "Workshop: Privacy-Preserving and Fairness-Aware Optimization."
-
-      - company: IEEE World Congress on Computational Intelligence, WCCI 2024
-        position: Special Session Organizer
-        location: Yokohama, Japan
-        url: "https://xwang1216.github.io/WCCI2024/"
-        start_date: 2024-06
-        end_date: 2024-07
-        summary: "Special session: Machine Learning Assisted Heuristics for Combinatorial Optimization. Served as a session chair."
-
-      - company: Australasian Joint Conference on Artificial Intelligence, AJCAI 2023
-        position: Workshop Organizer
-        location: Australia
-        url: "https://shiqing-liu.github.io/AJCAI2023-workshop/"
-        start_date: 2023-11
-        end_date: 2023-11
-        summary: "Workshop: Machine Learning for Data-driven Optimization."
-      
-        
-    # Experience:
-      # - company: Institute for Advanced Study, Princeton University
-        # position: Professor of Theoretical Physics
-        # location: Princeton University, NJ
-        # start_date: 1933
-        # end_date: 1955
-        # summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-       #  highlights:
-          # - Relativity
-          # - Description 2.
-
-# Volunteer:
-#   - company: People's Climate March
-#     position: Lead Organizer
-#     location: Zurich, Switzerland
-#     start_date: 2014-04-01
-#     end_date: 2015-07-01
-#     summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-#     highlights:
-#       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-#       - "Men of the year 2014 by Time magazine"
-
-# Awards:
-#   - title: Nobel Prize in Physics
-#     authors:
-#       - "Royal Swedish Academy of Sciences"
-#     date: 1921-11-01
-#     awarder: Royal Swedish Academy of Sciences
-#     url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-#     summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-#   - title: Max Planck Medal
-#     authors:
-#       - "German Physical Society"
-#     date: 2029
-#     awarder: German Physical Society
-#     summary: Awarded for outstanding scientific achievement
-
-    # Publications:
-      # - title: Zur Elektrodynamik bewegter Körper
-       #  authors:
-        #   - Albert Einstein
-        # publisher: Annalen der Physik
-       #  releaseDate: 1905-06-30
-       #  url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        # summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-    
     Skills:
       - name: Machine Learning
         icon: fa-solid fa-tag
         keywords: "<br>Graph Neural Networks, Diffusion Models, Generative Models, Large Language Models, Neural Network Convergence Theory"
-
       - name: Evolutionary Computation and Heuristics
         icon: fa-solid fa-tag
-        keywords: "<br>Surrogate Assisted Models, Data-Driven Optimization, Genetic Algorithms, Swarm-based Methods"
-
+        keywords: "<br>Surrogate-Assisted Models, Data-Driven Optimization, Genetic Algorithms, Swarm-Based Methods"
       - name: Optimization
         icon: fa-solid fa-tag
-        keywords: "<br>Continuous/Combinatorial Optimization, Multi-objective, Large-scale, Sparse/Expensive/Multimodal Optimization"
+        keywords: "<br>Continuous and Combinatorial Optimization, Multi-objective, Large-scale, Sparse, Expensive, and Multimodal Optimization"
 
     Languages:
       - name: Chinese
         summary: "Native speaker"
-
       - name: English
         summary: "Fluent"
-
-    
-   # Certificates:
-      #  - name: Machine Learning
-       #   date: 2018-01-01
-      #    issuer: Stanford University
-       #   icon: fa-solid fa-location-dot
-
-     # Projects:
-     #   - name: Quantum Computing
-      #    summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-       #   highlights:
-       #     - Quantum Teleportation
-       #     - Quantum Cryptography
-       #   start_date: 2018-01-01
-       #   end_date: 2018-01-01
-
-     # References:
-     #   - name: Professor John Doe
-      #    icon: fa-solid fa-laptop
-      #    reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-     
