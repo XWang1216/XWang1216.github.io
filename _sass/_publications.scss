@@ -343,3 +343,16 @@ html[data-theme="dark"] .cv .table-cv .badge {
 .bibliography .periodical em.ieee-trans-journal {
   color: #b12ca9 !important;
 }
+
+/* Publication code links */
+.bibliography .pub-code-link {
+  color: #b12ca9 !important;
+  font-weight: 500;
+  margin-left: 0.75rem;
+  text-decoration: none;
+}
+
+.bibliography .pub-code-link:hover {
+  color: #92278f !important;
+  text-decoration: underline;
+}
