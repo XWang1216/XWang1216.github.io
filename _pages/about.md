@@ -33,7 +33,7 @@ I received my Ph.D. in Computer Science from Bielefeld University, Germany, in 2
 
 My research lies at the intersection of machine learning and optimization, with a particular interest in:
 
-- **LLM Agent for Research Automation**
+- **LLM Agent for Research Automation and Code Generation**
 - **Graph learning for combinatorial optimization**
 - **Evolutionary computation and metaheuristics**
 - **Expensive/Sparse/MultiModal Large-scale Multi-Objective Optimization**
