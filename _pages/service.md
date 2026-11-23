@@ -49,3 +49,17 @@ nav_order: 4
 - IEEE Congress on Evolutionary Computation (CEC 2024, 2025)
 
 </div>
+<style>
+.academic-service h2 {
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  color: #444444 !important;
+  line-height: 1.4;
+  margin-top: 2rem !important;
+  margin-bottom: 0.8rem !important;
+}
+
+html[data-theme="dark"] .academic-service h2 {
+  color: #cccccc !important;
+}
+</style>
