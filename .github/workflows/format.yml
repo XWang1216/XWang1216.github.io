@@ -22,12 +22,13 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Install Prettier
-        run: npm install -g prettier@3
+      - name: Install Prettier and Liquid plugin
+        run: |
+          npm install --no-save --no-package-lock prettier@3 @shopify/prettier-plugin-liquid
 
       - name: Format website files
         run: |
-          prettier --write \
+          npx --no-install prettier --write \
             _config.yml \
             _data/cv.yml \
             _data/socials.yml \
@@ -38,7 +39,16 @@ jobs:
             assets/js/publication-tags.js
 
       - name: Verify formatting
-        run: prettier --check .
+        run: |
+          npx --no-install prettier --check \
+            _config.yml \
+            _data/cv.yml \
+            _data/socials.yml \
+            _pages/about.md \
+            _pages/publications.md \
+            _pages/service.md \
+            _sass/_publications.scss \
+            assets/js/publication-tags.js
 
       - name: Commit changes
         run: |
