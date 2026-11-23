@@ -69,3 +69,11 @@ document.addEventListener("DOMContentLoaded", () => {
     links.replaceChildren(doi);
   });
 });
+// Highlight IEEE Transactions journal names
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".bibliography .periodical em").forEach((journal) => {
+    if (/^IEEE Transactions\b/i.test(journal.textContent.trim())) {
+      journal.classList.add("ieee-trans-journal");
+    }
+  });
+});
