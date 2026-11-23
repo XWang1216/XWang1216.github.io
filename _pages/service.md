@@ -30,13 +30,15 @@ nav_order: 4
 
 ## Journal Reviewing
 
-- IEEE Transactions on Evolutionary Computation
-- IEEE Transactions on Cybernetics
-- IEEE Transactions on Artificial Intelligence
-- IEEE Transactions on Emerging Topics in Computational Intelligence
+- ACM Transactions on Evolutionary Learning and Optimization
+- Acta Automatica Sinica
 - Applied Soft Computing
-- Engineering Applications of Artificial Intelligence
 - Complex & Intelligent Systems
+- Engineering Applications of Artificial Intelligence
+- IEEE Transactions on Artificial Intelligence
+- IEEE Transactions on Cybernetics
+- IEEE Transactions on Emerging Topics in Computational Intelligence
+- IEEE Transactions on Evolutionary Computation
 - Neural Networks
 - Neurocomputing
 - Swarm and Evolutionary Computation
