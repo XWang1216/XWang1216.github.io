@@ -73,3 +73,60 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+
+/* Add code links to publications */
+
+document.addEventListener("DOMContentLoaded", () => {
+  const repositories = [
+    {
+      keywords: ["identifying", "decision variables"],
+      url: "https://github.com/XWang1216/MOEA-NZD",
+    },
+    {
+      keywords: ["adaptive merging", "offspring generation"],
+      url: "https://github.com/XWang1216/AC-MMEA",
+    },
+    {
+      keywords: ["enhanced competitive swarm optimizer", "sparse operator"],
+      url: "https://github.com/XWang1216/S-ECSO",
+    },
+    {
+      keywords: ["cluster based competitive particle swarm optimizer"],
+      url: "https://github.com/XWang1216/ST-CCPSO",
+    },
+    {
+      keywords: ["size imbalanced dual population"],
+      url: "https://github.com/XWang1216/MMEA-IDC",
+    },
+  ];
+
+  const normalize = (text) =>
+    text.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+  document.querySelectorAll(".bibliography li").forEach((item) => {
+    const title = item.querySelector(".title");
+    if (!title) return;
+
+    const text = normalize(title.textContent);
+
+    const repository = repositories.find((repo) =>
+      repo.keywords.every((keyword) => text.includes(keyword))
+    );
+
+    if (!repository) return;
+
+    const links = item.querySelector(".links");
+    if (!links || links.querySelector(".pub-code-link")) return;
+
+    const codeLink = document.createElement("a");
+    codeLink.href = repository.url;
+    codeLink.textContent = "[code]";
+    codeLink.className = "pub-code-link";
+    codeLink.target = "_blank";
+    codeLink.rel = "noopener noreferrer";
+
+    links.appendChild(codeLink);
+  });
+});
+
