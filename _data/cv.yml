@@ -2,7 +2,7 @@ cv:
   name: Xiangyu Wang
   label: Postdoctoral Researcher
   email: xiangyu.wang@chalmers.se
-  location: Gothenburg Sweden
+  location: Gothenburg, Sweden
   image: ""
   summary: >-
     I am a postdoctoral researcher in the Department of Computer Science and
@@ -10,7 +10,7 @@ cv:
     at the intersection of machine learning and optimization, focusing on
     LLM agents for research automation, graph learning for combinatorial
     optimization, evolutionary computation and metaheuristics, and large-scale
-    multi-objective optimization.
+    multi-objective optimization. At Chalmers, I work with [Dr. Yinan Yu](https://yinan16.github.io/).
 
   social_networks:
     - network: GitHub
@@ -20,9 +20,16 @@ cv:
 
   address:
     city: Gothenburg
+    region: Sweden
     countryCode: SE
 
   sections:
+    Social Networks:
+     - network: GitHub
+       username: XWang1216
+     - network: LinkedIn
+       username: xiangyu-wang-702a0739a
+      
     Education:
       - institution: Bielefeld University
         location: Bielefeld, Germany
@@ -42,9 +49,9 @@ cv:
         start_date: 2020
         end_date: 2022
         highlights:
-          - Graduated one year ahead of the standard study period.
           - Received the Excellent Graduation Thesis Award from the university and Shandong Province.
           - Supported by the UPC Graduate Innovation Project in 2021, No. YCX2021146, as project leader.
+          - Supervisor: [Prof. Jian Wang](https://sci.upc.edu.cn/_s122/2017/1106/c6857a96113/page.psp).
 
       - institution: University of Calgary
         location: Calgary, Canada
@@ -54,6 +61,7 @@ cv:
         end_date: 2020
         highlights:
           - Conducted undergraduate thesis research on statistical methods based on metabolites.
+          - Research Supervisor: [Dr. Karen Kopciuk](https://profiles.ucalgary.ca/karen-kopciuk).
 
       - institution: China University of Petroleum (East China)
         location: Qingdao, China
