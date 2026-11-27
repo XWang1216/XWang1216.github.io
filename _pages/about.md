@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-> **Optimization is everywhere**
+> **Optimization is Everywhere!**
 
 I am currently a postdoctoral researcher in the Department of Computer Science and Engineering at Chalmers University of Technology, Sweden.
 
