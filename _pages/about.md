@@ -126,8 +126,10 @@ html[data-theme="dark"] .post article b {
 .post h2.about-accent-heading,
 .post article h2.about-accent-heading {
   color: #b12ca9 !important;
+  font-size: 1.35rem !important;
   font-weight: 600 !important;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  line-height: 1.4;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
 }
 </style>
