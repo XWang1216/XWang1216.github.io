@@ -20,17 +20,19 @@ cv:
   sections:
 
     
+    
     Funding & Research Support:
-      - "Bielefeld Young Researchers' Fund (BYRF) — Doctoral research support, 2026."
-      - "Alexander von Humboldt Professorship for Artificial Intelligence — Research support through the professorship awarded to Prof. Yaochu Jin."
-      - "UPC Graduate Innovation Project — Project Leader, 2021 (No. YCX2021146)."
-      - "China Scholarship Council (CSC) — Visiting research support at the University of Calgary, 2020 (No. 201906450115, A1)."
-      - "China College Innovation and Entrepreneurship Program — Undergraduate research project support."
+      - bullet: "**Bielefeld Young Researchers' Fund (BYRF)** — Doctoral research support, 2026."
+      - bullet: "**Alexander von Humboldt Professorship for Artificial Intelligence** — Research support through the professorship awarded to [Prof. Yaochu Jin](https://www.humboldt-foundation.de/en/explore/newsroom/dossier-alexander-von-humboldt-professorship/yaochu-jin)."
+      - bullet: "**UPC Graduate Innovation Project** — Project Leader, 2021 (No. YCX2021146)."
+      - bullet: "**China Scholarship Council (CSC)** — Visiting research support at the University of Calgary, 2020 (No. 201906450115, A1)."
+      - bullet: "**China College Innovation and Entrepreneurship Program** — Undergraduate research project support."
 
     Honors & Awards:
-      - "Excellent Graduation Thesis Award — China University of Petroleum (East China) and Shandong Province."
-      - "Excellent Undergraduate Thesis Award — China University of Petroleum (East China)."
-      - "National Excellent Project — Project Leader (No. 201910425120)."
+      - bullet: "**Excellent Graduation Thesis Award** — China University of Petroleum (East China) and Shandong Province."
+      - bullet: "**Excellent Undergraduate Thesis Award** — China University of Petroleum (East China)."
+      - bullet: "**National Excellent Project** — Project Leader (No. 201910425120)."
+
 
     Education:
       - institution: Bielefeld University
