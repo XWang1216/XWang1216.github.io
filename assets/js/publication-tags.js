@@ -47,7 +47,10 @@ document.addEventListener("DOMContentLoaded", () => {
       title.appendChild(tags);
     }
 
-    column.classList.add("pub-abbr-hidden");
+    // Hide old abbreviation badges, but keep publication thumbnails
+column.querySelectorAll("abbr.badge").forEach((badge) => {
+  badge.style.setProperty("display", "none", "important");
+});
   });
 });
 
