@@ -356,3 +356,39 @@ html[data-theme="dark"] .cv .table-cv .badge {
   color: #285440 !important;
   text-decoration: underline;
 }
+
+/* Publication preview layout */
+
+.bibliography .abbr:not(:has(.preview)) {
+  display: none !important;
+}
+
+@media (min-width: 576px) {
+  .bibliography > li > .row:has(.abbr .preview) {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    gap: 1.25rem;
+  }
+
+  .bibliography > li > .row:has(.abbr .preview) > .abbr {
+    display: block !important;
+    flex: 0 0 18%;
+    width: 18% !important;
+    max-width: 18% !important;
+    order: 0 !important;
+  }
+
+  .bibliography > li > .row:has(.abbr .preview) > div:not(.abbr) {
+    flex: 1 1 0;
+    width: auto !important;
+    max-width: none !important;
+    order: 1 !important;
+  }
+
+  .bibliography .abbr .preview {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
