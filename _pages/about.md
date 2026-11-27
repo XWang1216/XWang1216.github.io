@@ -32,6 +32,7 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 
 I received my Ph.D. in Computer Science from Bielefeld University, Germany, in 2026, and my B.Sc. and M.Sc. degrees in Mathematics from the China University of Petroleum (East China) in 2020 and 2022, respectively. In 2020, I conducted my undergraduate thesis research at the University of Calgary, Canada. During my doctoral studies, I was also a visiting researcher at Westlake University, China.
 
+<h2 class="about-accent-heading">Research Interests</h2>
 My research lies at the intersection of machine learning and optimization, with a particular interest in:
 
 - **LLM Agent for Research Automation and Code Generation**
@@ -39,12 +40,12 @@ My research lies at the intersection of machine learning and optimization, with 
 - **Evolutionary computation and metaheuristics**
 - **Expensive/Sparse/MultiModal Large-scale Multi-Objective Optimization**
 
-## Funding & Research Support
+<h2 class="about-accent-heading">Funding & Research Support</h2>
 
 - **Bielefeld Young Researchers' Fund (BYRF)** — Doctoral research support, 2026.
 - **UPC Graduate Innovation Project** — Project Leader, 2021.
 - **China Scholarship Council (CSC)** — Research visit to the University of Calgary, 2020.
-- **Alexander von Humboldt Professorship for Artificial Intelligence** — Research support through the professorship awarded to Prof. Yaochu Jin.
+- **Alexander von Humboldt Professorship for Artificial Intelligence** — Research support through the professorship awarded to [Prof. Yaochu Jin](https://www.humboldt-foundation.de/en/explore/newsroom/dossier-alexander-von-humboldt-professorship/yaochu-jin).
 
 <!--
 ### Graph Neural Combinatorial Optimization
