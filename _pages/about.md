@@ -132,4 +132,33 @@ html[data-theme="dark"] .post article b {
   margin-top: 1.8rem;
   margin-bottom: 0.8rem;
 }
+
+
+/* =========================================
+   Selected Publications - About Page Only
+   ========================================= */
+
+/* Purple heading */
+.post article > h2:has(> a[href*="/publications/"]) {
+  color: #b12ca9 !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  line-height: 1.5;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Heading link */
+.post article > h2:has(> a[href*="/publications/"]) > a {
+  color: inherit !important;
+  text-transform: capitalize;
+  text-decoration: none !important;
+}
+
+/* Hide old labels only in Selected Publications */
+.post article > h2:has(> a[href*="/publications/"])
+  + .publications .abbr abbr.badge {
+  display: none !important;
+}
+
 </style>
