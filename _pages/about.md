@@ -39,6 +39,13 @@ My research lies at the intersection of machine learning and optimization, with 
 - **Evolutionary computation and metaheuristics**
 - **Expensive/Sparse/MultiModal Large-scale Multi-Objective Optimization**
 
+## Funding & Research Support
+
+- **Bielefeld Young Researchers' Fund (BYRF)** — Doctoral research support, 2026.
+- **UPC Graduate Innovation Project** — Project Leader, 2021.
+- **China Scholarship Council (CSC)** — Research visit to the University of Calgary, 2020.
+- **Alexander von Humboldt Professorship for Artificial Intelligence** — Research support through the professorship awarded to Prof. Yaochu Jin.
+
 <!--
 ### Graph Neural Combinatorial Optimization
 
