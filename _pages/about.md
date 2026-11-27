@@ -121,4 +121,13 @@ html[data-theme="dark"] .post article strong,
 html[data-theme="dark"] .post article b {
   color: #cccccc !important;
 }
+
+  /* Research and Funding headings */
+.post h2.about-accent-heading,
+.post article h2.about-accent-heading {
+  color: #b12ca9 !important;
+  font-weight: 600 !important;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
 </style>
